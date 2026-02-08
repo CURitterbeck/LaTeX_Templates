@@ -1,0 +1,75 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Reference: https://www.bibtex.com/e/entry-types/
+% Reference Date: February 8, 2026
+%
+% Reference:
+%   https://ctan.math.washington.edu/tex-archive/biblio/bibtex/base/btxdoc.pdf
+% Reference Date: February 8, 2026
+%
+% NOTE: This is a master header. Remove this once each type of entry has its
+% own individual reference and reference date information.
+% -Brent A. Ritterbeck; February 8, 2026
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Reference: https://www.bibtex.com/e/article-entry/
+% Reference Date: February 8, 2026
+%
+% Required:
+% 1. author
+% 2. title
+% 3. journal
+% 4. year
+%
+% Optional:
+% 1. volume
+% 2. number
+% 3. pages
+% 4. month
+% 5. note
+%
+% Non-Standard:
+% 1. doi
+% 2. issn
+% 3. zblnumber
+% 4. eprint
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@article {%CITATION_KEY,
+    author  = %STRING,
+    title   = %STRING,
+    journal = %STRING,
+    year    = %INTEGER,
+    volume  = %STRING,
+    number  = %STRING,
+    pages   = %STRING$
+}
+
+@book {%CITATION_KEY,
+    author    = %STRING,
+    title     = %STRING,
+    publisher = %STRING,
+    address   = %STRING,
+    year      = %INTEGER
+}
+
+@mastersthesis {%CITATION_KEY,
+    author  = %STRING,
+    title   = %STRING,
+    school  = %STRING,
+    year    = %INTEGER,
+    address = %STRING,
+    month   = %ENUMERATION_KEY
+}
+
+@phdthesis {%CITATION_KEY,
+    author = %STRING,
+    title  = %STRING,
+    school = %STRING,
+    address = %STRING,
+    year    = %INTEGER,
+    month   = %ENUMERATION_KEY
+}
